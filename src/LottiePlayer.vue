@@ -8,7 +8,7 @@ import '@lottiefiles/lottie-player';
 export default {
 	props: {
 		src: {
-			type: Object,
+			type: String,
 			required: true
 		},
 		options: {
